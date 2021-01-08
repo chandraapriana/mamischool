@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="text_blueSky">#2F4FDF</color>
+    <color name="btn_blueSky">#0C49C8</color>
+    <color name="colorNavi">#152C5B</color>
+    <color name="colorGrey">#B0B0B0</color>
+    <color name="colorGreyLight">#E8E5E5</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="white">#FFFFFF</color>
+</resources>

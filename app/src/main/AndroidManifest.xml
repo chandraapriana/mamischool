@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.chandra.mamischool">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="false"
+        android:fullBackupContent="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="MamiSchool"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplashScreen">            <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter></activity>
+        <activity android:name=".ActivityStudent.StudentZooning" />
+        <activity android:name=".ActivityStudent.StudentSchoolDetail" />
+        <activity android:name=".ActivityStudent.StudentHome">
+
+        </activity>
+        <activity android:name=".ActivityAdmin.AdminDescription" />
+        <activity android:name=".ActivityAdmin.AdminExtracuricullar" />
+        <activity android:name=".ActivityAdmin.AdminFacilities" />
+        <activity android:name=".ActivityAdmin.AdminAchievment" />
+        <activity android:name=".ActivityAdmin.AdminHome" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyC-SA1sFpflgQUQSIcQdIFvgoftfx7rxDY" />
+
+        <activity android:name=".ActivityAdmin.AdminCreateSchool" />
+        <activity android:name=".ActivityAdmin.AdminFalseSchool" />
+        <activity android:name=".ActivityAdmin.AdminRegister" />
+        <activity android:name=".ActivityStudent.StudentRegister" />
+        <activity android:name=".ActivityAdmin.AdminLogin"></activity>
+        <activity android:name=".ActivityStudent.StudentLogin" />
+        <activity android:name=".ChooseLoginStudent" />
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

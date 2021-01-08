@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".ActivityAdmin.AdminLogin">
+
+    <ImageView
+        android:layout_marginTop="-100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:src="@drawable/logo_vertical" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Admin School"
+        android:fontFamily="@font/poppins_regular"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="@color/text_blueSky"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:paddingBottom="16dp"/>
+
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:fontFamily="@font/poppins_regular"
+        android:drawableLeft="@drawable/ic_email"
+        android:drawablePadding="15dp"
+        android:paddingLeft="15dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/custom_input"
+        />
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:fontFamily="@font/poppins_regular"
+        android:drawableLeft="@drawable/ic_lock"
+        android:drawablePadding="15dp"
+        android:paddingLeft="15dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:background="@drawable/custom_input"
+        />
+
+    <Button
+        android:id="@+id/admin_login_login_page"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Login"
+        android:fontFamily="@font/poppins_bold"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/rounded_button"
+        />
+
+    <TextView
+        android:id="@+id/admin_register"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Create Account"
+        android:fontFamily="@font/poppins_regular"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:textColor="@color/text_blueSky"
+        />
+
+</LinearLayout>

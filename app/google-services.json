@@ -1,0 +1,122 @@
+{
+  "project_info": {
+    "project_number": "640248682440",
+    "firebase_url": "https://mami-school.firebaseio.com",
+    "project_id": "mami-school",
+    "storage_bucket": "mami-school.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:640248682440:android:4cedcaf52794d0247fd2fd",
+        "android_client_info": {
+          "package_name": "com.chandra.mamischool"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "640248682440-qesvuuipg2jf7354n9bbob4k9s249ssh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.chandra.mamischool",
+            "certificate_hash": "99864358b88cb688426b68b29928e8e3e52e1969"
+          }
+        },
+        {
+          "client_id": "640248682440-542hnhi21j4kq2u4k3lfiejmtk8162r2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCiKCtPCFUtzzrukreRRlBp6vnxPgmeVmg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "640248682440-542hnhi21j4kq2u4k3lfiejmtk8162r2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:640248682440:android:9955f082ce6852237fd2fd",
+        "android_client_info": {
+          "package_name": "com.example.mamischool"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "640248682440-0q98ehllhmk73j1tkt4fbmfdv26eabfe.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mamischool",
+            "certificate_hash": "021a7878cc0bd4c18755cd479aa65854d8d6188c"
+          }
+        },
+        {
+          "client_id": "640248682440-542hnhi21j4kq2u4k3lfiejmtk8162r2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCiKCtPCFUtzzrukreRRlBp6vnxPgmeVmg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "640248682440-542hnhi21j4kq2u4k3lfiejmtk8162r2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:640248682440:android:6fda2ca3cd89a2207fd2fd",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "640248682440-7bc2bntss6kt8gjqinci44ri8lksuq1k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.myapplication",
+            "certificate_hash": "021a7878cc0bd4c18755cd479aa65854d8d6188c"
+          }
+        },
+        {
+          "client_id": "640248682440-542hnhi21j4kq2u4k3lfiejmtk8162r2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCiKCtPCFUtzzrukreRRlBp6vnxPgmeVmg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "640248682440-542hnhi21j4kq2u4k3lfiejmtk8162r2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

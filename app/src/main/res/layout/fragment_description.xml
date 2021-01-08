@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.DescriptionFragment">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <!-- TODO: Update blank fragment layout -->
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/linear_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp">
+
+        <LinearLayout
+            android:id="@+id/data_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="NPSN"
+                android:fontFamily="@font/poppins_regular"
+                android:textColor="@color/colorNavi"
+                android:textSize="15sp"
+                android:textStyle="normal"
+                android:drawableStart="@drawable/ic_person_admin"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_person_admin" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Accreditation"
+                android:fontFamily="@font/poppins_regular"
+                android:textColor="@color/colorNavi"
+                android:textSize="15sp"
+                android:textStyle="normal"
+                android:layout_height="wrap_content"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Address"
+                android:fontFamily="@font/poppins_regular"
+                android:textColor="@color/colorNavi"
+                android:textSize="15sp"
+                android:textStyle="normal"
+                android:layout_height="wrap_content"
+
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/semicolon"
+            android:layout_toRightOf="@id/data_name">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text=" : "
+                android:fontFamily="@font/poppins_regular"
+                android:textColor="@color/colorNavi"
+                android:textSize="15sp"
+                android:textStyle="normal"
+                android:layout_height="wrap_content"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text=" : "
+                android:fontFamily="@font/poppins_regular"
+                android:textColor="@color/colorNavi"
+                android:textSize="15sp"
+                android:textStyle="normal"
+                android:layout_height="wrap_content"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:text=" : "
+                android:fontFamily="@font/poppins_regular"
+                android:textColor="@color/colorNavi"
+                android:textSize="15sp"
+                android:textStyle="normal"
+                android:layout_height="wrap_content"
+
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_toRightOf="@+id/semicolon"
+            android:layout_marginRight="30dp">
+
+            <TextView
+                android:id="@+id/desc_npsn"
+                android:layout_width="wrap_content"
+                android:text="10000001"
+                android:fontFamily="@font/poppins_regular"
+                android:textColor="@color/colorNavi"
+                android:textSize="15sp"
+                android:textStyle="normal"
+                android:layout_height="wrap_content"
+                />
+            <TextView
+                android:id="@+id/desc_accreditation"
+                android:layout_width="wrap_content"
+                android:text="A"
+                android:fontFamily="@font/poppins_regular"
+                android:textColor="@color/colorNavi"
+                android:textSize="15sp"
+                android:textStyle="normal"
+                android:layout_height="wrap_content"
+                />
+
+            <TextView
+                android:id="@+id/desc_address"
+                android:layout_width="wrap_content"
+                android:text="Jl. Arif Rahman Hakim Gg. Pahlawan RT 04/ RW 18 Kelurahan Muka"
+                android:fontFamily="@font/poppins_regular"
+                android:textColor="@color/colorNavi"
+                android:textSize="15sp"
+                android:textStyle="normal"
+                android:layout_height="wrap_content"
+
+                />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/upDesc"
+        android:layout_below="@+id/linear_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp">
+
+        <LinearLayout
+            android:id="@+id/data_name1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Amount of Class"
+                android:fontFamily="@font/poppins_regular"
+                android:textColor="@color/colorNavi"
+                android:textSize="15sp"
+                android:textStyle="normal"
+                android:layout_height="wrap_content"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Amount of Student"
+                android:fontFamily="@font/poppins_regular"
+                android:textColor="@color/colorNavi"
+                android:textSize="15sp"
+                android:textStyle="normal"
+                android:layout_height="wrap_content"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/semicolon1"
+            android:layout_toRightOf="@id/data_name1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text=" : "
+                android:fontFamily="@font/poppins_regular"
+                android:textColor="@color/colorNavi"
+                android:textSize="15sp"
+                android:textStyle="normal"
+                android:layout_height="wrap_content"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text=" : "
+                android:fontFamily="@font/poppins_regular"
+                android:textColor="@color/colorNavi"
+                android:textSize="15sp"
+                android:textStyle="normal"
+                android:layout_height="wrap_content"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_toRightOf="@+id/semicolon1">
+
+            <TextView
+                android:id="@+id/desc_classes"
+                android:layout_width="wrap_content"
+                android:text="38"
+                android:fontFamily="@font/poppins_regular"
+                android:textColor="@color/colorNavi"
+                android:textSize="15sp"
+                android:textStyle="normal"
+                android:layout_height="wrap_content"
+                />
+            <TextView
+                android:id="@+id/desc_students"
+                android:layout_width="wrap_content"
+                android:text="45678"
+                android:fontFamily="@font/poppins_regular"
+                android:textColor="@color/colorNavi"
+                android:textSize="15sp"
+                android:textStyle="normal"
+                android:layout_height="wrap_content"
+                />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/upDesc">
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_description_student"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/linear_description" />
+
+
+    </ScrollView>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
